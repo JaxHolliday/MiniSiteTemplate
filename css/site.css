@@ -2,6 +2,7 @@
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 } 
+
 .sticky-footer {
     position: sticky;
     left: 0;
@@ -30,4 +31,20 @@ footer{
 
 h1,h2,h3,h4,h5,h6{
     color: var(--primary-color);
+}
+
+footer{
+    padding-right: 1rem;
+}
+
+/* Footer == class of social with the a tag */
+footer .social>a{
+    color: var(--whitecolor);
+    opacity: 0.75;
+}
+
+/* anything in the footer tag, element class social, and is an <a> tag */
+footer .social>a:hover{
+    opacity: 0.9;
+    color: var(--secondary-color);
 }
