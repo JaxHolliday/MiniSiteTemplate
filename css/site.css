@@ -48,3 +48,21 @@ footer .social>a:hover{
     opacity: 0.9;
     color: var(--secondary-color);
 }
+
+
+/* Icons custom colors ==> use "." for class selection  */
+.bsicon{
+    color: purple;
+}
+
+.jsicon{
+    color: rgb(226, 211, 4);
+}
+
+.html5icon{
+    color: orangered;
+}
+
+.cssicon{
+    color: blue;
+}
